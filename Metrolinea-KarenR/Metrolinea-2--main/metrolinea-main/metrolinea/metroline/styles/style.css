@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vw;
+    background: linear-gradient(gray,rgb(228, 228, 228));
+}
+
+.page {
+    position: absolute;
+    width: 90%;
+    max-width:  135.9vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.page img, .page p, .page a {
+    position: absolute;
+}
+
+.rectangle-3 {
+    top: 20%;
+    left: 1vw;
+    width: 91.6vw;
+}
+
+.logo {
+    top: 6vh;
+    left: 4vw;
+    width: 12v;
+    height: auto;
+    z-index: 1;
+}
+
+.linea {
+    top: 0;
+    left: 55%;
+    width: 10%;
+    height: auto;
+    z-index: 1;
+}
+
+.comp, .sldo {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 2vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.comp {
+    top: 6vh;
+    left: 60%;
+}
+
+.sldo {
+    top: 6vh;
+    left: 78%;
+}
+
+.search, .cart {
+    width: 2%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.search {
+    top: 7vh;
+    left: 93%;
+}
+
+.cart {
+    top:7vh;
+    left: 98%;
+}
+
+.tarjeta {
+    top: 15vh;
+    left: 20vw;
+    width: 55vw;
+}
+
+.rectangle-2 {
+    top: 90vh;
+    left: 76.2vw;
+    width: 10%;
+    height: auto;
+    z-index: 1;
+}
+
+.logo3 {
+    top: 92vh;
+    left: 77vw;
+    width: 8%;
+    height: auto;
+    z-index: 1;
+}
+
+.Compra {
+    font-size: 1.8vw;
+    top: 96vh;
+    left: 77vw;
+    width: 10%;
+    height: auto;
+    z-index: 1;
+}
+
+.rectangle-1 {
+    top: 20%;
+    right: -10vw;
+    width: 7.2vw
+
+}
+
+.up, .down {
+    width: 3vw;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.up {
+    top: 6vh;
+    right: -8vw;
+}
+
+.down {
+    bottom: -45vw;
+    right: -8vw;
+}
+
+.cant {
+    font-size: 1.5vw;
+    color: white;
+    top: 18vh;
+    right: -9.3vw;
+    width: auto;
+    z-index: 1;
+}
+
+.T1, .T2, .T3 {
+    font-size: 1.2em;
+    width: 5vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.T1 {
+    color: rgb(151, 150, 150);
+    top: 30vh;
+    right: -12%;
+}
+
+.T2 {
+    color: white;
+    top: 50vh;
+    right: -12%;
+}
+
+.T3 {
+    color: rgb(168, 166, 166);
+    top: 70vh;
+    right: -12%;
+}
+
+.footer {
+    font-size: 2em;
+    top: 80vh;
+    left: 8vw;
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+}
+
+.footer2 {
+    font-size: 1.5em;
+    top: 90vh;
+    left: 8vw;
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+}
